@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+	<bean name="todoRepository"
+		class="com.simplilearn.workshop.repository.TodoRepositoryImpl" />
+
+
+	<bean name="todoService"
+		class="com.simplilearn.workshop.service.TodoServiceImpl" autowire="constructor">
+		<!-- depends on 'todoRepository -->
+		<!-- <property name="todoRepository" ref="todoRepository" /> setter method di -->
+		<!-- <constructor-arg name="todoRepository" ref="todoRepository"/> --> <!-- constructor di -->
+	</bean>
+
+
+</beans>
