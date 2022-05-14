@@ -1,0 +1,5 @@
+package com.simplilearn.workshop.domain;
+
+public class Todo {
+
+}
