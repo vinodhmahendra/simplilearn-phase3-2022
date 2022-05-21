@@ -14,13 +14,13 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import com.simplilearn.workshop.domain.Todo;
 
 @Repository(value = "todoRepository")
-
-
+//@Component(value = "todoRepository")
 public class TodoRepositoryImpl implements TodoRepository{
 	
 	private JdbcTemplate jdbcTemplate;
