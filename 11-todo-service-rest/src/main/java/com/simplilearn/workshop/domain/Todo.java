@@ -3,10 +3,17 @@ package com.simplilearn.workshop.domain;
 import java.util.Date;
 import java.util.Objects;
 
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
+
+
+
 public class Todo {
 	
 	private long id;
+	@NotEmpty
 	private String username;
+	@NotEmpty @Size(min = 5, message = "description should be more than 5 characters")
 	private String description;
 	private Date targetDate;
 	private boolean isDone;

@@ -1,5 +1,0 @@
-package com.simplilearn.workshop.service;
-
-public class TodoServiceImpl implements TodoService{
-
-}
