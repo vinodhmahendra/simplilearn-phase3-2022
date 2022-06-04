@@ -5686,3 +5686,30 @@ org.eclipse.core.internal.resources.ResourceException: Marker id 4145 not found.
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 !SUBENTRY 1 org.eclipse.core.resources 4 376 2022-06-04 20:56:16.098
 !MESSAGE Marker id 4145 not found.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-04 22:29:10.074
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-04 22:29:10.075
+!MESSAGE buffering callback sts4.classpath.NgyZnNHc 14-todo-service-rest-jpa-h2 true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-04 22:29:10.075
+!MESSAGE executing callback sts4.classpath.NgyZnNHc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-04 22:29:10.145
+!MESSAGE executing callback sts4.classpath.NgyZnNHc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-04 22:29:14.717
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-04 22:29:14.724
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-04 22:29:14.730
+!MESSAGE buffering callback sts4.classpath.NgyZnNHc 15-todo-service-rest-jpa-mysql false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-04 22:29:14.730
+!MESSAGE executing callback sts4.classpath.NgyZnNHc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-04 22:29:15.143
+!MESSAGE executing callback sts4.classpath.NgyZnNHc SUCCESS [done]

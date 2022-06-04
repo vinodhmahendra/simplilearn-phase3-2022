@@ -6,7 +6,7 @@ import java.util.Objects;
 
 public class Todo {
 
-	private Long id;
+	private long id;
 	
 	private String username;
 	
